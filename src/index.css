@@ -11,3 +11,18 @@
   --light-grey-transparent: rgb(94, 90, 94, 0.3);
   --black: rgb(20, 20, 20);
 }
+
+@media screen {
+  html {
+    background-color: gray;
+    padding-block: 2rem;
+  }
+
+  body {
+    background-color: white;
+    width: 260mm;
+    margin: auto !important;
+    padding: 5mm 5mm 10mm 10mm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
